@@ -10,15 +10,15 @@ int main()
 
 	if(per>=90)
 		printf("\nGrade A\n");
-	if(per>=80 && per<90)
+	else if(per>=80)
 		printf("\nGrade B\n");
-	if(per>=70 && per<80)
+	else if(per>=70)
 		printf("\nGrade C\n");
-	if(per>=60 && per<70)
+	else if(per>=60)
 		printf("\nGrade D\n");
-	if(per>=40 && per<60)
+	else if(per>=40)
 		printf("\nGrade E\n");
-	else if(per<40)
+	else
 		printf("\nGrade F\n");
 	return 0;
 }
